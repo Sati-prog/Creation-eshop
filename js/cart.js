@@ -13,7 +13,7 @@ $.getJSON('goods.json', function(data) {
             var out = `
                 <div class="cart-empty">
                     Your cart is empty. Add item to 
-                    <a href="index.html">
+                    <a href="/eshop/">
                         cart 
                         <i class="fa-solid fa-cart-shopping"></i>
                     </a>

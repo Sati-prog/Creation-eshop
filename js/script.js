@@ -58,5 +58,13 @@ function showMiniCart() {
 
         out += w + '---'+cart[w]+'<br>';
     }
+
+    out += `
+        <br>
+        <a class="open-cart" href="cart">
+            Open cart
+            <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+    `;
     $('#mini-cart').html(out);
 }
