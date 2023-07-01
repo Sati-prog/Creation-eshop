@@ -34,5 +34,26 @@ h1 {
     background-color: yellow;
     border: 1px solid black;
     border-radius: 7px;
+}
 
+.cart-goods {
+    width: 400px;
+    height: auto;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.cart-goods button {
+    padding: 10px 15px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 7px;
 }
