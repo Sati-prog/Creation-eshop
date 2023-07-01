@@ -11,6 +11,20 @@ h1 {
     text-align: center;
 }
 
+.open-cart {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    border-radius: 7px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.open-cart i {
+    font-size: .6rem;
+}
+
 .single-goods {
     width: 300px;
     height: 400px;
@@ -51,9 +65,26 @@ h1 {
     margin-bottom: 10px;
 }
 
+h1 .fa-cart-shopping {
+    font-size: 1.6rem;
+}
+
 .cart-goods button {
     padding: 10px 15px;
     background-color: yellow;
     border: 1px solid black;
     border-radius: 7px;
+}
+
+.cart-empty {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.cart-empty a {
+    text-decoration: none;
+}
+
+.cart-empty a i {
+    font-size: .9rem;
 }

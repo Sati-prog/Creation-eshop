@@ -8,24 +8,39 @@ $.getJSON('goods.json', function(data) {
 
     function showCart() {
 
-        var out = '';
-        for (var key in cart) {
+        if ($.isEmptyObject(cart)) {
+            // корзина пуста
+            var out = `
+                <div class="cart-empty">
+                    Your cart is empty. Add item to 
+                    <a href="index.html">
+                        cart 
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            `;
+            $('#my-cart').html(out);
+        } else {
 
-            out+='<div class="cart-goods">';
-            out += '<button class="delete" data-art="'+key+'">x</button>';
-            out += '<img src="'+goods[key].img+'" width="48">';
-            out += goods[key].name;
-            out += '<button class="minus" data-art="'+key+'">-</button>';
-            out += cart[key];
-            out += '<button class="plus" data-art="'+key+'">+</button>';
-            out += '<p>'+cart[key]*goods[key].cost+' tg</p>';
-            // out += '<br>';
-            out+='</div>';
+            var out = '';
+            for (var key in cart) {
+
+                out+='<div class="cart-goods">';
+                out += '<button class="delete" data-art="'+key+'">x</button>';
+                out += '<img src="'+goods[key].img+'" width="48">';
+                out += goods[key].name;
+                out += '<button class="minus" data-art="'+key+'">-</button>';
+                out += cart[key];
+                out += '<button class="plus" data-art="'+key+'">+</button>';
+                out += '<p>'+cart[key]*goods[key].cost+' tg</p>';
+                // out += '<br>';
+                out+='</div>';
+            }
+            $('#my-cart').html(out);
+            $('.plus').on('click', plusGoods);
+            $('.minus').on('click', minusGoods);
+            $('.delete').on('click', deleteGoods);
         }
-        $('#my-cart').html(out);
-        $('.plus').on('click', plusGoods);
-        $('.minus').on('click', minusGoods);
-        $('.delete').on('click', deleteGoods);
     }
 
     function plusGoods() {
