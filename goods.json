@@ -1,0 +1,56 @@
+{
+    "00001" : {
+        "name" : "Elementary",
+        "cost" : 1987,
+        "description" : "London, 1889 High society is shocked by the untimely death of renowned lawyer, detective and public figure John Marlowe. Both his opponents and his comrades-in-arms in the political struggle are in suspense: will the enlightening collection “Fabian Essays” now see the light of day? And who benefits from the death of an outstanding defender of the rights of the working class? Input data. As with other stories in the Elementary! series, clues, testimonies, clues, and other pieces of information are set out on cards that are dealt to players. You have to decide which of them clarify the circumstances of the tragedy, and which, on the contrary, lead you on the wrong track. Those cards that you consider important evidence of the correct version must be played face up on your turn, the rest must be discarded.",
+        "img" : "img/elementary.jpg"
+    },
+    "00002" : {
+        "name" : "Evolution",
+        "cost" : 5000,
+        "description" : "In April 2010, the first edition of the board game “Evolution“ was released, which turned the course of history. It was successfully translated into dozens of languages, took root in many countries and grew into a whole tree of additions and sequels. We present you the anniversary edition — “Evolution. New world“. This is a standalone game with colorful illustrations, updated features and mechanics.",
+        "img" : "img/evolution.jpg"
+    },
+    "00003" : {
+        "name" : "Kaz-hans",
+        "cost" : 37000,
+        "description" : "The news of the upcoming elections of the khan - khan saylau - was announced in advance by the zhasauyls to all the clans of the Kazakhs. On this occasion, women and children put on their best clothes, and men came to the kurultai fully armed. Without it, they did not have the right to vote and could be pushed out by younger and stronger warriors. The board game “Kazakh Khanate“ gives players the opportunity to immerse themselves in the atmosphere of this exciting process, get the support of Kazakh clans and unite them under their own flag so that the winner is raised on a white felt mat!",
+        "img" : "img/kaz-hans.jpg"
+    },
+    "00004" : {
+        "name" : "Mafia",
+        "cost" : 27000,
+        "description" : "The city fell asleep. Every morning, its inhabitants read with horror in the fresh newspapers reports about the victims of the criminal war. Every day, the few remaining honest police officers tried to overcome the resistance of the corrupt authorities and break through the wall of omerta to the secrets of the families that long ago divided the city into spheres of influence. Every evening, merchants and businessmen packed a share of the day's earnings in white envelopes, handed them over to the tribute collectors and hastily closed the establishments ... And night fell. Everyone who valued life sat at home, well aware: you should not stay on the street when the mafia wakes up! “Mafia“ is a world-famous game in which the inhabitants of the city are trying to figure out and neutralize the criminals, and the gangsters shoot ordinary people one by one. Get involved in an uncompromising fight for the city and lead your side to victory!",
+        "img" : "img/mafia.jpg"
+    },
+    "00005" : {
+        "name" : "Manchking",
+        "cost" : 7500,
+        "description" : "Centaurs and lizards! Two classic fantasy races are invading a pastoral world of violence and deceit at full gallop, dropping their tails and kicking their hooves at full speed! Become a Legendary, Elite or Elder Munchkin with new class and race boosters! The new toughness will come in handy in the battle with the insidious Party-Muschers, in the assault on the overcrowded Snakebus, in the epic battle with Armored Ponies! This is not a standalone game, but an additional set of cards. The base Munchkin is required to play. Game duration: from 30 minutes Number of players: 3-6 players Age of players: 12 years and older Language: Russian Manufacturer: Mir Hobbi",
+        "img" : "img/manchking.jpg"
+    },
+    "00006" : {
+        "name" : "Memo",
+        "cost" : 4300,
+        "description" : " Memo is a really interesting and surprisingly useful game! It will easily cheer up a large and small company. You will become a fan of this game, having tried to play only once. “Memo“ is one of those rare games where success often depends on the ability and effort of the player; than luck. Memo is a rewarding game with simple rules where kids can win without the adult giveaway!",
+        "img" : "img/memo.jpg"
+    },
+    "00007" : {
+        "name" : "Monopoly",
+        "cost" : 19000,
+        "description" : "A new edition of the classic Monopoly with 8 tokens voted by the fans in early 2017! In the classic version, there were 5 of them earlier. Children and adults can feel like real high-flying tycoons. Buy property, invest in houses and hotels, collect rent and make great deals with your opponents. An updated edition of the legendary board game with an economic twist! Buy up all the properties in the neighboring streets, take over the dominance of the railroad tracks. Have fun with family and friends with this iconic board game, and the new metal pieces will get you in the mood right from the start!",
+        "img" : "img/monopoly.jpg"
+    },
+    "00008" : {
+        "name" : "Tower",
+        "cost" : 2800,
+        "description" : "“King's tower mini“ is not the usual board game with chips and cards. This game consists of wooden blocks designed to develop in children such skills as attention, patience, dexterity and many others. Understanding which plank to pull out and how to put it on top so that the whole structure does not fall apart is not an easy task. Spend your leisure time with friends or family with this useful and addictive game from the “Tenth Kingdom“!",
+        "img" : "img/tower.jpg"
+    },
+    "00009" : {
+        "name" : "Uno",
+        "cost" : 2900,
+        "description" : "Uno is an instant classic, probably the best selling card board game in the world. Uno is played by musicians, actors, politicians, astronauts, and just all passionate people. A game that does not recognize barriers - this is about Uno.",
+        "img" : "img/uno.jpg"
+    }
+}

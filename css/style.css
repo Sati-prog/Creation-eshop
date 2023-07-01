@@ -1,0 +1,38 @@
+body {
+    background-color: #eee;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.single-goods {
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    background-color: white;
+}
+
+.single-goods img {
+    width: 70%;
+    height: auto;
+}
+
+.single-goods button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 7px;
+
+}
